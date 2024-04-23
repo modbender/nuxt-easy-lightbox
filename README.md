@@ -19,9 +19,9 @@ A simple Vue.js 3.0 image lightbox component with Zoom / Drag / Rotate / Switch.
 
 ## Features
 
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- 🔆 &nbsp;Lightweight, Highly Customizable
+- ❤️ &nbsp;Easy to Use with Lots of Features
+- 🖼️ &nbsp;Image Slider in Lightbox
 
 ## Quick Setup
 
