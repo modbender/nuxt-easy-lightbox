@@ -1,5 +1,5 @@
 <h1 align="center">
-Nuxt Easy Lighthouse
+Nuxt Easy Lightbox
 </h1>
 
 <p align="center">
@@ -86,7 +86,7 @@ A simple Vue.js 3.0 image lightbox component with Zoom / Drag / Rotate / Switch.
   - For group of images you need only a single `VueEasyLightbox` since they can be viewed through slider. Put all the images in an Array and pass it to `imgs` argument.
   - For individual images, for each `img` element you need individual lighbox.
 
-That's it! You can now use Easy Lighthouse in your Nuxt app ✨
+That's it! You can now use Easy Lightbox in your Nuxt app ✨
 
 
 ## Contribution

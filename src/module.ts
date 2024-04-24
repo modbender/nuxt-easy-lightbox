@@ -8,7 +8,7 @@ export default defineNuxtModule<ModuleOptions>({
   meta: {
     name,
     version,
-    configKey: "easyLighthouse",
+    configKey: "easyLightbox",
     compatibility: {
       nuxt: "^3.0.0",
     },
