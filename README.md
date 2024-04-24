@@ -43,7 +43,7 @@ A simple Vue.js 3.0 image lightbox component with Zoom / Drag / Rotate / Switch.
 
 3. Next use the component `VueEasyLightbox` right next to image element for which you want to use lightbox.
 
-    ```xml
+    ```vue
     <template>
       <div>
         <div
