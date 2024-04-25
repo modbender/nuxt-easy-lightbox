@@ -10,7 +10,7 @@ Nuxt Easy Lightbox
 </p>
 
 <p align="center">
-A simple Vue.js 3.0 image lightbox component with Zoom / Drag / Rotate / Switch.
+A plugin to the simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate / Switch.
 </p>
 
 ![Nuxt Easy Lightbox](./.github/VueEasyLightbox.gif)

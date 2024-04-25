@@ -1,8 +1,26 @@
 {
   "name": "nuxt-easy-lightbox",
   "version": "1.0.1",
-  "description": "My new Nuxt module",
+  "description": "A plugin to the simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate / Switch.",
   "repository": "modbender/nuxt-easy-lightbox",
+  "keywords": [
+    "vue",
+    "vue.js",
+    "vue3",
+    "vue 3",
+    "nuxt",
+    "nuxt3",
+    "nuxt 3",
+    "lightbox",
+    "easy",
+    "carousel",
+    "slideshow",
+    "gallery",
+    "lightweight",
+    "touch",
+    "responsive",
+    "image"
+  ],
   "license": "MIT",
   "type": "module",
   "exports": {
