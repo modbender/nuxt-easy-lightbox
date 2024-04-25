@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.2
+
+[compare changes](https://github.com/modbender/nuxt-easy-lightbox/compare/v1.0.1...v1.0.2)
+
+### 🏡 Chore
+
+- **release:** V1.0.1 ([e30d0d0](https://github.com/modbender/nuxt-easy-lightbox/commit/e30d0d0))
+
+### ❤️ Contributors
+
+- Modbender
+
 ## v1.0.1
 
 
