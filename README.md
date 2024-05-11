@@ -30,7 +30,7 @@ A plugin to the simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate 
 1. Install the module to your Nuxt application with one command:
 
     ```bash
-    npx nuxi module add easy-lightbox
+    npx nuxi module add nuxt-easy-lightbox
     ```
 
 2. Add module to `nuxt.config.ts`
