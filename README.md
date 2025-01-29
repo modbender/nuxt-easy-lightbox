@@ -84,7 +84,7 @@ A plugin to the simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate 
   
   Remember 
   - For group of images you need only a single `VueEasyLightbox` since they can be viewed through slider. Put all the images in an Array and pass it to `imgs` argument.
-  - For individual images, for each `img` element you need individual lighbox.
+  - For individual images, for each `img` element you need individual lightbox.
 
 That's it! You can now use Easy Lightbox in your Nuxt app ✨
 
