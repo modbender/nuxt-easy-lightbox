@@ -22,10 +22,10 @@ const visibleRef = ref(false)
 const indexRef = ref(0)
 
 const imgs = [
-  'https://via.placeholder.com/450.png/',
-  'https://via.placeholder.com/300.png/',
-  'https://via.placeholder.com/150.png/',
-  { src: 'https://via.placeholder.com/450.png/', title: 'this is title' },
+  'https://images.placeholders.dev/450',
+  'https://images.placeholders.dev/350',
+  'https://images.placeholders.dev/150',
+  { src: 'https://images.placeholders.dev/450', title: 'this is title' },
 ]
 
 const showImg = (index) => {
