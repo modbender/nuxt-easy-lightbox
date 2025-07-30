@@ -1,4 +1,4 @@
-export interface ModuleOptions {}
+export const ModuleOptions = object
 
 declare module 'nuxt-splide' {
   interface NuxtConfig {
