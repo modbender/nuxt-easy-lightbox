@@ -2,7 +2,7 @@
   "name": "nuxt-easy-lightbox",
   "version": "1.1.0",
   "description": "A plugin to the simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate / Switch.",
-  "repository": "nuxt-easy-lightbox",
+  "repository": "modbender/nuxt-easy-lightbox",
   "keywords": [
     "vue",
     "vue.js",
