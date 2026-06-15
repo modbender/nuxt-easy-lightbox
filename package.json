@@ -1,6 +1,6 @@
 {
   "name": "nuxt-easy-lightbox",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A plugin to the simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate / Switch.",
   "repository": "modbender/nuxt-easy-lightbox",
   "keywords": [
@@ -11,6 +11,8 @@
     "nuxt",
     "nuxt3",
     "nuxt 3",
+    "nuxt4",
+    "nuxt 4",
     "lightbox",
     "easy",
     "carousel",
@@ -23,7 +25,7 @@
   ],
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@10.26.0",
   "exports": {
     ".": {
       "types": "./dist/types.d.mts",
@@ -46,28 +48,33 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
+    "release": "pnpm run lint && pnpm run test && pnpm run prepack && changelogen --release && pnpm publish && git push --follow-tags",
     "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "vitest run",
-    "test:watch": "vitest watch"
+    "test:watch": "vitest watch",
+    "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/kit": "^4.0.1",
+    "@nuxt/kit": "^4.4.8",
     "vue-easy-lightbox": "^1.19.0"
   },
   "devDependencies": {
-    "@nuxt/devtools": "^2.6.2",
-    "@nuxt/eslint-config": "^1.7.1",
+    "@nuxt/devtools": "3.2.4",
+    "@nuxt/eslint-config": "^1.16.0",
     "@nuxt/module-builder": "^1.0.2",
-    "@nuxt/schema": "^4.0.2",
-    "@nuxt/test-utils": "^3.19.2",
-    "@types/node": "^24.1.0",
-    "@vue/test-utils": "^2.4.6",
+    "@nuxt/schema": "^4.4.8",
+    "@nuxt/test-utils": "^4.0.3",
+    "@types/node": "^22.10.7",
+    "@vue/test-utils": "^2.4.11",
     "changelogen": "^0.6.2",
-    "eslint": "^9.32.0",
-    "happy-dom": "^18.0.1",
-    "nuxt": "^4.0.2",
-    "playwright-core": "^1.54.1",
-    "vitest": "^3.2.4"
+    "eslint": "^10.5.0",
+    "happy-dom": "^20.10.3",
+    "nuxt": "^4.4.8",
+    "playwright-core": "^1.61.0",
+    "prettier": "^3.8.4",
+    "typescript": "~5.8.3",
+    "vitest": "^4.1.9",
+    "vue-tsc": "^3.3.5"
   }
 }

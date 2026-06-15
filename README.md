@@ -17,7 +17,8 @@ A plugin to the simple Vue 3 Image Lightbox component with Zoom / Drag / Rotate 
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 - [🏀 Online playground](https://stackblitz.com/github/modbender/nuxt-easy-lightbox?file=playground%2Fapp.vue)
-- [📖 &nbsp;Documentation](https://github.com/XiongAmao/vue-easy-lightbox)
+- [📖 &nbsp;Documentation](https://modbender.in/nuxt-easy-lightbox/)
+- [🧩 &nbsp;Component API reference (vue-easy-lightbox)](https://github.com/XiongAmao/vue-easy-lightbox)
 
 ## Features
 

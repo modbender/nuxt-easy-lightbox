@@ -1,6 +1,6 @@
-export const ModuleOptions = object
+export type ModuleOptions = Record<string, never>
 
-declare module 'nuxt-splide' {
+declare module 'nuxt-easy-lightbox' {
   interface NuxtConfig {
     easyLightbox?: ModuleOptions
   }
